@@ -34,7 +34,8 @@ public class TestStaticOverride {
     public static void main(String args[]) {
         Base obj1 = new Derived();            //obj 1 refer to child class
 
-        obj1.display();                // As per overriding rules it should call to class Derive's static overridden method. Since static method can not be  overridden, it  calls Base's display()  since static methods are resolved or bonded during compile time not runtime.
+        obj1.display();                // As per overriding rules it should call to class Derive's static overridden method. 
+        //Since static method can not be  overridden, it  calls Base's display()  since static methods are resolved or bonded during compile time not runtime.
         Derived d = new Derived();
         d.display();
 

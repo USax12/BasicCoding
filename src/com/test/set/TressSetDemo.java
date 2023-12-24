@@ -17,7 +17,7 @@ public class TressSetDemo {
         //t.add(new StringBuffer("AD"));
         // We will get RunTimeException :ClassCastException
         // As StringBuffer does not implements Comparable interface  that why we use Comparator method
-        // and even StringBuffer cannnoty be converted to String as we have passed String while creating String (argument mismatch)
+        // and even StringBuffer cannnot be converted to String as we have passed String while creating String (argument mismatch)
 
         //System.out.println("Set before using the comparator: "+ t);
         System.out.println(t);

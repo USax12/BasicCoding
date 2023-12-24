@@ -1,7 +1,9 @@
 package com.test.basic;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 class CollDemo {
     public static void main(String args[]) {
@@ -18,6 +20,8 @@ class CollDemo {
         System.out.println(":After Sorting" + al);
         Collections.reverse(al);
         System.out.println("Reverse" + al);
+        
+        List<Integer> a= Arrays.asList(1,2,3,4);
     }
 }	
 		

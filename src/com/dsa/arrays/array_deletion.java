@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class array_deletion {
 
-    public static void main(String[] args) {
+    @SuppressWarnings("resource")
+	public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
         int noOfElements,indexOfDeletedElement;
